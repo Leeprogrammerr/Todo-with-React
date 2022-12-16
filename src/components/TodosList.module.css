@@ -1,0 +1,31 @@
+.todos-list {
+  width: 90%;
+  min-height: 100px;
+  background-color: #ecedf6;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.btns-container > button {
+  margin-left: 10px;
+}
+
+.todo {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+}
+
+.todo > li {
+  list-style: none;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.toggled {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

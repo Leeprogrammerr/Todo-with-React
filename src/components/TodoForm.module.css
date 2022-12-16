@@ -1,0 +1,78 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.todo-form {
+  background-color: #ecedf6;
+  height: 480px;
+  width: 70%;
+  position: fixed;
+  top: 20vh;
+  left: 15%;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-form_title {
+  color: #646681;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.form-label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+.form-input {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.label-container:nth-last-of-type(2) {
+  margin-top: 40px;
+}
+
+.select {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.form_btns-container {
+  margin-top: 50px;
+}
+
+.btn-add-task {
+  background: #646ff0;
+  color: #fff;
+}
+
+.btn-cancel {
+  background-color: #cccdde;
+  color: #646681;
+  margin-left: 20px;
+}

@@ -1,0 +1,55 @@
+:root {
+  --primaryPurple: #646ff0;
+  --black-1: #646681;
+  --black-2: #585858;
+  --bg-1: #f8f8ff;
+  --bg-2: #ecedf6;
+  --bg-3: #cccdde;
+  --gray-1: #eee;
+  --gray-2: #dedfe1;
+  --black: #000;
+  --white: #fff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  padding: 1rem;
+}
+
+.todo-app .todo-app_title {
+  color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 2rem auto 1.5rem;
+}
+
+.section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background: #646ff0;
+  color: #fff;
+}
